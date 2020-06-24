@@ -1,0 +1,48 @@
+:root {
+    --bg-primary: #3c3c3c;
+    --bg-dark: #000000;
+    --text-primary: #fff;
+    --text-select: #fece14;
+    --text-additional: #951b80;
+}
+
+.slide {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.slide--not-top {
+    padding-top: 0;
+} 
+
+.slide li::before {
+    color: var(--text-primary);
+}
+
+.slide--fl-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title__big {
+    margin-bottom: 0.5rem;
+    font-size: 2.3em;
+    line-height: 1;
+}
+
+.fl-bl-50 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.img--full {
+    max-width: 100%;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@shower/ribbon/styles/styles.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .shower {
+        --slide-ratio: calc(16 / 9);
+      }
+    </style>
+  </head>
+  <body class="shower list">
+    <header class="caption">
+      <h1>Shower Presentation Engine</h1>
+      <p>Yours Truly, Famous Inc.</p>
+    </header>
+
+    <section class="slide slide--not-top slide--fl-center">
+      <h1 class="title title__big">SEO vs A11Y</h1>
+      <p>или как постараться всем угодить</p>
+    </section>
+
+    <section class="slide">
+      <h1 class="title">Кто я?</h1>
+      <div class="fl-bl-50">
+        <img class="profile-img" src="/img/profile-photo.png" alt="" />
+        <div>
+          <ul>
+            <li>Frontend разработчик</li>
+            <li>Занимался SEO около года</li>
+            <li>Увлекаюсь доступностью</li>
+            <li>Немного твит-блогер</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide slide--not-top">
+      <h1 class="title">О чем сегодня поговорим</h1>
+      <ol>
+        <li>Что такое SEO и как его готовить</li>
+        <li>A11Y и как его подружить с SEO</li>
+        <li>Рассмотрим все на примере</li>
+        <li>Сравним и сделаем небольшие выводы</li>
+      </ol>
+    </section>
+
+    <section class="slide slide--not-top">
+      <h1 class="title">SEO</h1>
+      <p>
+        Поиско́вая оптимиза́ция (англ. search engine optimization, SEO) — комплекс
+        мер по внутренней и внешней оптимизации для поднятия позиций сайта
+        в результатах выдачи поисковых систем по определённым запросам
+        пользователей, с целью увеличения сетевого трафика и потенциальных
+        клиентов и последующей монетизации этого трафика.
+      </p>
+    </section>
+
+    <section class="slide slide--not-top">
+      <h1 class="title">A11Y</h1>
+      <p>
+        Доступность (англ. accessibility) — создание продуктов, устройств,
+        сервисов или окружающей среды для людей с ограниченными
+        возможностями. Концепция доступного дизайна и практика разработки
+        доступных объектов призваны обеспечить как «прямой доступ» (то есть без
+        сторонней помощи), так и «непрямой доступ», означающий совместимость
+        с вспомогательными технологиями, используемыми
+        человеком (например, скринридерами).
+      </p>
+    </section>
+
+    <section class="slide slide--not-top slide--fl-center">
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>A11Y</td>
+                    <td>SEO</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Цель</td>
+                    <td>Быть 🐱 и помогать людям</td>
+                    <td>💵 и смотреть метрику</td>
+                </tr>
+                <tr>
+                    <td>Показатели</td>
+                    <td>ARIA, Удобство UI</td>
+                    <td>Аналитика и карты таро</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+
+      <section class="slide slide--fl-center">
+        <img class="img--full" src="/img/message.jpg" alt="" />
+      </section>
+
+      <section class="slide slide--not-top slide--fl-center">
+        <h1 class="title">2. Практики на примере</h1>
+      </section>
+
+      <section class="slide slide--not-top slide--fl-center">
+        <img src="/img/iphone-se.jpg" alt="">
+      </section>
+
+    <footer class="badge">
+      <a href="https://github.com/shower/shower">Fork me on GitHub</a>
+    </footer>
+
+    <div class="progress"></div>
+
+    <script src="node_modules/@shower/core/dist/shower.js"></script>
+    <!-- Copyright © 2020 Yours Truly, Famous Inc. -->
+  </body>
+</html>
