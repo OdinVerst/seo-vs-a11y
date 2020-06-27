@@ -13,7 +13,12 @@
 
 .slide--not-top {
     padding-top: 0;
-} 
+}
+
+.slide--not-pd {
+    padding: 0;
+    margin: 0;
+}
 
 .slide li::before {
     color: var(--text-primary);
@@ -36,6 +41,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.img--50 {
+    width: 50%;
+    margin: 0 0.5em;
 }
 
 .profile-img {
