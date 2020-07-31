@@ -222,3 +222,8 @@
 .logo-tiwtter {
     max-height: 250px;
 }
+
+.slider-num-bg.slide::after {
+    background-color: #3a3a3a;
+    height: auto;
+}
